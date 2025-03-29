@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML form</h2>
+    <form action="backend.php">
+        <lable for="name">Name</lable>
+        <div>
+             <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <lable for="role">Role</lable>
+        <div>
+            <input type="text" name="myrole" id="role">
+        </div>
+        <br>
+        <lable for="email">Email</lable>
+        <div>
+            <input type="eamil" name="myemail" id="email">
+        </div>
+        <br>
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <label for="time">Time</label>
+        <div>
+            <input type="time" name="mytime" id="time">
+        </div>
+        <br>
+        <label for="number">Number</label>
+        <div>
+            <input type="Number" name="mynumber" id="number">
+        </div>
+        <br>
+        <label for="check">Check</label>
+        <div>
+            <input type="checkbox" name="mycheckbox" id="check" checked>  
+        </div>
+        <br>
+        <label for="gender">Gender</label>
+        <div> 
+            Male<input type="radio" name="mygender" id="gender"> female <input type="radio" name="mygender" id="gender"> other <input type="radio" name="mygender" id="gender">
+        </div>
+        <br>
+        <label for="text">Write About Yourself</label>
+        <div>
+            <br><textarea name="mytext" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <lable for="car">car</lable>
+            <select name="mycar" id="car">
+                <option value="ind">indica</option>
+                <option value="swf" >Swift</option>
+                <option value="nano" selected>nano</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit here">
+            <input type="reset" value="resets here">
+        </div>
+    </form>    
+</body>
+</html>
